@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $("#regbox").hide()
+    $("#reglink").click(function(){
+        //alert('Login...!')
+        $("#logbox").hide()
+        $("#regbox").show()
+    })
+    $("#loginlink").click(function(){
+        //alert('Login...!')
+        $("#logbox").show()
+        $("#regbox").hide()
+    })
+})
